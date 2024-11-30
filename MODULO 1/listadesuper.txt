@@ -2,3 +2,7 @@ pan
 banana
 cebollas 
 arroz
+
+
+leche
+huevos
