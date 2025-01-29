@@ -1,38 +1,48 @@
+body {
+    background-color: lightgrey;
+}
+
 h1 {
-    color: red; /*comentarios de css*/
-    font-family: Arial, Helvetica, sans-serif; /*para cambiar tipo de letra*/
-    background-color: yellow; /*para cambiar color de fondo*/
-    text-align: center; /*ubicacion del texto*/
+    color: black;
+    /*comentarios de css*/
+    font-family: "Bona Nova SC", serif;
+    /*para cambiar tipo de letra*/
+    background: rgba(133, 53, 255, 0.81);
+    background: linear-gradient(90deg, rgba(133, 53, 255, 0.81) 0%, rgba(0, 255, 216, 0.56) 80%);
+    background: -webkit-linear-gradient(90deg, rgba(133, 53, 255, 0.81) 0%, rgba(0, 255, 216, 0.56) 80%);
+    background: -moz-linear-gradient(90deg, rgba(133, 53, 255, 0.81) 0%, rgba(0, 255, 216, 0.56) 80%);
+    ;
+    /*para cambiar color de fondo*/
+    text-align: center;
+    /*ubicacion del texto*/
+    border-radius: 20px 0 50px 10px;
+    box-shadow: 10px 20px 1px black;
 }
 
-h2{
-    color: green;
-    font-size: 30px;    
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Dancing Script", serif;
 }
 
-p{
-    color: blue;
-    font-size: 18px;
+h3 {
+    font-family: "Dancing Script", serif;
 }
 
-.destacados{
+div p {
+    color: black;
+    background-color: rgb(200, 169, 230);
+    column-count: 3;
+}
+
+.destacados {
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
 }
- 
-#rojo {
-    background-color:red;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border: 5px solid black;
-    box-sizing: border-box; /*propiedad clave para mantener el contenido centrado dentro de la caja*/
-    margin-left: 100px;
-}
 
-#azul {
-    background-color:aquamarine;
-    width: 300px;
+img {
+    width: 350px;
     height: 300px;
+    margin: 20px 0 30px 50px;
 }

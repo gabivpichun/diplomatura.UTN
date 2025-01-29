@@ -1,0 +1,37 @@
+/*   font-family: "Open Sans", serif;
+font-family: "Playwrite NZ Guides", serif; */
+
+
+#caja {
+    width: 300px;
+    height: 300px;
+    /*background-color: yellow;*/
+    margin: 100px;
+    padding: 20px;
+    background: rgb(36, 0, 36);
+    background: rgb(114, 148, 187);
+    background: linear-gradient(90deg, rgba(114, 148, 187, 1) 14%, rgba(6, 81, 168, 1) 25%, rgba(214, 3, 202, 1) 53%, rgba(0, 212, 255, 1) 99%);
+    border-radius: 20px 0 50px 10px;
+    box-shadow: 10px 20px 5px black;
+    /*eje X (horiz) eje Y (vert) blur (desenfoque) color */
+    border: 2px solid white;
+}
+
+.texto {
+    background-color: orange;
+    column-count: 5;
+    column-gap: 60px;
+}
+
+.texto p {
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Playwrite NZ Guides", serif;
+}
+
+h2,
+p {
+    font-family: "Open Sans", serif;
+}
